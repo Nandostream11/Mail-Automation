@@ -11,11 +11,11 @@ This project allows you to send formatted Gmail draft emails to a list of recipi
 ## Project Structure📁
 ---
 .
-├── auto_gmail.py          # Main script to send mails
-├── gg.xlsx                # Excel file with recipient emails (column: Email)
-├── token.json             # OAuth token after authentication
-├── credentials.json       # OAuth credentials (downloaded from Google Cloud)
-└── README.md              # This file
+├- auto_gmail.py          # Main script to send mails
+├- gg.xlsx                # Excel file with recipient emails (column: Email)
+├- token.json             # OAuth token after authentication
+├- credentials.json       # OAuth credentials (downloaded from Google Cloud)
+└- README.md              # This file
 ### Requirements🧰
 Python 3.7+
 Gmail account
