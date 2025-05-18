@@ -1,4 +1,4 @@
-#📬 Gmail Draft Sender Automation
+# Gmail Draft Sender Automation📬
 This project allows you to send formatted Gmail draft emails to a list of recipients using Python and the Gmail API. It maintains the original formatting and content of your Gmail draft and sends it to emails listed in an Excel sheet.
 
 ##🚀 Features
