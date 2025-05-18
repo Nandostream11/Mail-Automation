@@ -58,7 +58,7 @@ Go to Gmail Drafts
 -Make sure your Excel file (gg.xlsx) contains a column named exactly:
 -Each row should contain one recipient email.
 
-# Run the Script▶️
+### Run the Script▶️
 
 python auto_gmail.py
 
