@@ -1,14 +1,14 @@
 # Gmail Draft Sender Automation📬
 This project allows you to send formatted Gmail draft emails to a list of recipients using Python and the Gmail API. It maintains the original formatting and content of your Gmail draft and sends it to emails listed in an Excel sheet.
 
-##🚀 Features
+## Features🚀
 ---
 -Uses Gmail API for secure, authenticated access.
 -Preserves formatting, links, and subject from your Gmail draft.
 -Sends personalized emails in bulk using data from an Excel sheet.
 -Minimal configuration, ready to scale.
 
-##📁 Project Structure
+## Project Structure📁
 ---
 .
 ├── auto_gmail.py          # Main script to send mails
@@ -16,12 +16,12 @@ This project allows you to send formatted Gmail draft emails to a list of recipi
 ├── token.json             # OAuth token after authentication
 ├── credentials.json       # OAuth credentials (downloaded from Google Cloud)
 └── README.md              # This file
-###🧰 Requirements
+### Requirements🧰
 Python 3.7+
 Gmail account
 Google Cloud project with Gmail API enabled
 
-##📦 Install Dependencies
+## Install Dependencies📦
 ---
 pip install --upgrade google-api-python-client google-auth-httplib2 google-auth-oauthlib pandas openpyxl
 🔑 Google Cloud Setup
@@ -35,7 +35,7 @@ Go to Google Cloud Console
 -Application type: Desktop App-
 -Download the credentials.json file and place it in your project folder.
 
-##🔐 First-Time Authentication
+## First-Time Authentication🔐
 Run this snippet once to authenticate and generate token.json:
 
 from google_auth_oauthlib.flow import InstalledAppFlow
@@ -58,7 +58,7 @@ Go to Gmail Drafts
 -Make sure your Excel file (gg.xlsx) contains a column named exactly:
 -Each row should contain one recipient email.
 
-▶️ Run the Script
+# Run the Script▶️
 
 python auto_gmail.py
 
