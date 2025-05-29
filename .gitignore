@@ -1,23 +1,54 @@
-# Ignore Python bytecode
+# Python bytecode
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
 
-# Ignore virtual environments
+# Virtual environments
 venv/
 env/
+.venv/
 
-# Ignore credentials and token files
-credentials.json
-token.json
-
-# Ignore Excel files with recipient data
-*.xlsx
-
-# Ignore Jupyter and VSCode settings (if any)
-.ipynb_checkpoints/
+# IDE/editor settings
 .vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
 
-# Ignore OS-specific files
+# OS-specific files
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Gmail API credentials and tokens
+credentials.json
+token.json
+client_secret.json
+client_id.json
+secrets.json
+
+# Local environment config files
+.env
+.env.*
+*.env
+
+# CSV or Excel files with personal data
+*.csv
+*.xls
+*.xlsx
+
+# Logs and debug output
+*.log
+
+# Compiled C extensions (if any)
+*.so
+
+# Misc
+*.bak
+*.tmp
+
+# Ignore email raw dumps or exports (if any)
+*.eml
+*.mbox

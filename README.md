@@ -13,13 +13,15 @@ This project allows you to send formatted Gmail draft emails to a list of recipi
 .
 ├- auto_gmail.py          # Main script to send mails
 ├- gg.xlsx                # Excel file with recipient emails (column: Email)
+├- forward_filtered_emails.py     # Script to filter & forward mails in .eml format
 ├- token.json             # OAuth token after authentication
 ├- credentials.json       # OAuth credentials (downloaded from Google Cloud)
 └- README.md              # This file
+
 ### Requirements🧰
 Python 3.7+
 Gmail account
-Google Cloud project with Gmail API enabled
+Google Cloud project with Gmail API enabled & credential.json downloaded
 
 ## Install Dependencies📦
 ---
