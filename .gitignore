@@ -38,6 +38,7 @@ secrets.json
 *.csv
 *.xls
 *.xlsx
+gg.xlsx
 
 # Logs and debug output
 *.log
